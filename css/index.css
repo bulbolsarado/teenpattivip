@@ -9,6 +9,11 @@ body {
 img {
   display: block;
 }
+.tvp-down-btns {
+  display: flex;
+  align-items: center;
+  padding-top: 40%;
+}
 .down2 {
   text-align: center;
   width: 100%;
@@ -21,7 +26,6 @@ img {
   align-items: center;
 }
 .down2 img {
-  width: 16rem;
   display: block;
   text-align: center;
   margin-top: 85%;
