@@ -145,15 +145,22 @@
     </div>
 
     <div class="content">
-      <div onclick="DownSoft()" class="down">
+      <div id="androidtopDownload" onclick="DownSoft()" class="down">
         <a><img src="img/top-image.png" alt="" /></a>
       </div>
       <div class="tvp-down-btns">
-        <div onclick="DownSoft()" class="down2">
+        <div id="androidDownload" onclick="DownSoft()" class="down2">
           <a><img src="img/android-btn-tpv.png" alt="" /></a>
         </div>
-        <div onclick="DownSoft()" class="down2">
+        <div id="iosDownload" onclick="DownSoft()" class="down2">
           <a><img src="img/ios-btn-tpv.png" alt="" /></a>
+        </div>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalMessage"></p>
         </div>
       </div>
       <div class="top1">
@@ -195,7 +202,7 @@
       <div class="pagcor">
         <img src="img/pagcr.png" alt="" />
       </div>
-      <div id="foot" onclick="DownSoft()" class="foot">
+      <div id="androidbottomDownload" onclick="DownSoft()" class="foot">
         <img src="img/bottom-img.png" alt="" />
       </div>
     </div>
